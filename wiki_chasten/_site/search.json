@@ -1,0 +1,114 @@
+[
+  {
+    "objectID": "devforum.html#issue-41",
+    "href": "devforum.html#issue-41",
+    "title": "Chasten Dev Forum",
+    "section": "Issue 41",
+    "text": "Issue 41\nIssue #41: Document Pain Points & Solutions Regarding Dev Environments\nTODO: Add a forum feature to public show the issues and problems we have encoundered while working on Chasten. The purpose of this is to highlight concerns Chasten has raised amongst the dev team."
+  },
+  {
+    "objectID": "videos.html#issue-36",
+    "href": "videos.html#issue-36",
+    "title": "Chasten Videos",
+    "section": "Issue 36",
+    "text": "Issue 36\nIssue #36: Create a Video that Shows how Chasten Analyzes a Codebase\nTODO: Add a video here\n\nFiller video (inspired by OBC):"
+  },
+  {
+    "objectID": "videos.html#issue-37",
+    "href": "videos.html#issue-37",
+    "title": "Chasten Videos",
+    "section": "Issue 37",
+    "text": "Issue 37\nIssue #37: Create a Video that Shows How to Use Chasten’s Datasette to Analyze Data\nTODO: Add a video here\n\nFiller video (inspired by OBC):"
+  },
+  {
+    "objectID": "chastenwiki.html#introduction",
+    "href": "chastenwiki.html#introduction",
+    "title": "Chasten Documentation",
+    "section": "🎉 Introduction",
+    "text": "🎉 Introduction\n\nChasten is a Python program that uses XPath expressions to find patterns in the abstract syntax tree (AST) of a Python program. You can use Chasten to quickly implement your own configurable linting rules, without having to use a complex AST analysis framework or resorting to imprecise regular expressions.\nDo you want to ensure that a Python program has does not have any triple-nested for loops inside of async functions? Or, do you want to confirm that every function inside your Python program has type annotations and a docstring comment? Chasten can help! It allows you to express these checks — and many other types of analyses as well — in simple YAML files that contain XPath expressions."
+  },
+  {
+    "objectID": "chastenwiki.html#definitions",
+    "href": "chastenwiki.html#definitions",
+    "title": "Chasten Documentation",
+    "section": "😂 Definitions",
+    "text": "😂 Definitions\n\nchasten (transitive verb) “to make someone aware of failure or of having done something wrong”, Cambridge Dictionary.\n\nExample Sentence: “Her remarks are a gift to me even as they chasten and redirect my efforts to expand the arguments of this book into a larger one.”, Cambridge English Corpus\n\nchasten (uncountable or singular noun) “a tool that analyzes the abstract syntax tree of a Python program to detect potential sources of programmer mistakes so as to prevent program failure”, AstuteSource Developers.\n\nStudent Sentence: “I’m glad that chasten reminded me to add docstrings and type annotations to all of the functions in main.py. It was easy to see what to fix!”\nInstructor Sentence: “chasten makes it easy for me to reliably confirm that student programs have the required coding constructs. It’s much better than using regular expressions!”\nDeveloper Sentence: “Since I was already familiar with XPath expressions, chasten made it fun and easy for me to do an automate analysis of a Python codebase that I maintain.”\nResearcher Sentence: “In addition to helping me quickly scan the source code of Python projects, chasten’s analysis dashboard lets me effectively explore the data I collect.”"
+  },
+  {
+    "objectID": "chastenwiki.html#features",
+    "href": "chastenwiki.html#features",
+    "title": "Chasten Documentation",
+    "section": "🔋Features",
+    "text": "🔋Features\n\n✨ Easy-to-configure, automated analysis of a Python program’s abstract syntax tree\n📃 Flexible and easy-to-use YAML-based configuration file for describing analyses and checks\n🪂 Automated generation and verification of the YAML configuration files for an analysis\n🚀 Configurable saving of analysis results in the JSON, CSV, or SQLite formats\n🚧 Automated integration of result files that arise from multiple runs of the tool\n🌄 Interactive results analysis through the use of a locally running datasette server\n🌎 Automated deployment of a datasette server on platforms like Fly or Vercel\n🦚 Detailed console and syslog logging to furnish insights into the tool’s behavior\n💠 Rich command-line interface with robust verification of arguments and options\n🤯 Interactive command-line generation through an easy-to-use terminal user interface"
+  },
+  {
+    "objectID": "chastenwiki.html#requirements",
+    "href": "chastenwiki.html#requirements",
+    "title": "Chasten Documentation",
+    "section": "⚡️ Requirements",
+    "text": "⚡️ Requirements\n\nPython 3.11\nChasten leverages numerous Python packages, including notable ones such as:\n\nDatasette: Interactive data analysis dashboards\nPyastgrep: XPath-based analysis of a Python program’s AST\nPydantic: Automated generation and validation of configuration files\nRich: Full-featured formatting and display of text in the terminal\nTrogon: Automated generation of terminal user interfaces for a command-line tool\nTyper: Easy-to-implement and fun-to-use command-line interfaces\n\nThe developers of Chasten use Poetry for packaging and dependency management"
+  },
+  {
+    "objectID": "chastenwiki.html#installation",
+    "href": "chastenwiki.html#installation",
+    "title": "Chasten Documentation",
+    "section": "🔽 Installation",
+    "text": "🔽 Installation\nFollow these steps to install the chasten program:\n\nInstall Python 3.11 for your operating system\nInstall pipx to support program installation in isolated environments\nType pipx install chasten to install Chasten\nType pipx list and confirm that Chasten is installed\nType chasten --help to learn how to use the tool"
+  },
+  {
+    "objectID": "chastenwiki.html#configuration",
+    "href": "chastenwiki.html#configuration",
+    "title": "Chasten Documentation",
+    "section": "🪂 Configuration",
+    "text": "🪂 Configuration\nYou can configure chasten with two YAML files, normally called config.yml and checks.yml. Although chasten can generate a starting configuration, you can check out the 📦 AstuteSource/chasten-configuration repository for example(s) of configuration files that setup the tool. Although the config.yml file can reference multiple check configuration files, this example shows how to specify a single checks.yml file:\n# chasten configuration\nchasten:\n  # point to a single checks file\n  checks-file:\n    - checks.yml\nThe checks.yml file must contain one or more checks. What follows is an example of a check configuration file with two checks that respectively find the first executable line of non-test and test-case functions in a Python project. Note that the pattern attribute specifies the XPath version 2.0 expression that chasten will use to detect the specified type of Python function. You can type chasten configure validate --config &lt;path to chasten-configuration/ directory&gt; after filling in &lt;path to chasten-configuration&gt; with the fully-qualified name of your configuration directory and the tool will confirm that your configuration meets the tool’s specification. You can also use the command chasten configure create command to automatically generate a starting configuration! Typing chasten configure --help will explain how to configure the tool.\nchecks:\n  - name: \"all-non-test-function-definition\"\n    code: \"FUNC\"\n    id: \"FUNC001\"\n    description: \"First executable line of a non-test function, skipping over docstrings and/or comments\"\n    pattern: '//FunctionDef[not(contains(@name, \"test_\"))]/body/Expr[value/Constant]/following-sibling::*[1] | //FunctionDef[not(contains(@name, \"test_\"))]/body[not(Expr/value/Constant)]/*[1]'\n  - name: \"all-test-function-definition\"\n    code: \"FUNC\"\n    id: \"FUNC002\"\n    description: \"First executable line of a test function, skipping over docstrings and/or comments\"\n    pattern: '//FunctionDef[starts-with(@name, \"test_\")]/body/Expr[value/Constant]/following-sibling::*[1] | //AsyncFunctionDef[starts-with(@name, \"test_\")]/body/Expr[value/Constant]/following-sibling::*[1] | //FunctionDef[starts-with(@name, \"test_\")]/body[not(Expr/value/Constant)]/*[1] | //AsyncFunctionDef[starts-with(@name, \"test_\")]/body[not(Expr/value/Constant)]/*[1]'\n    count:\n      min: 1\n      max: 10"
+  },
+  {
+    "objectID": "chastenwiki.html#analysis",
+    "href": "chastenwiki.html#analysis",
+    "title": "Chasten Documentation",
+    "section": "✨ Analysis",
+    "text": "✨ Analysis\nSince chasten needs a project with Python source code as the input to its analysis sub-command, you can clone the 📦 AstuteSource/lazytracker and 📦 AstuteSource/multicounter repositories that are forks of existing Python projects created for convenient analysis. To incrementally analyze these two projects with chasten, you can type the following commands to produce a results JSON file for each project:\n\nAfter creating a subject-data/ directory that contains a lazytracker/ directory, you can run the chasten analyze command for the lazytracker program:\n\nchasten analyze lazytracker \\\n        --config &lt;path to the chasten-configuration/ directory&gt; \\\n        --search-path &lt;path to the lazytracker/ directory&gt; \\\n        --save-directory &lt;path to the subject-data/lazytracker/ directory&gt; \\\n        --save\n\nNow you can scan the output to confirm that, for instance, chasten finds 6 test functions in the lazytracker project. If you look in the subject-data/lazytracker directory you will find a JSON file with a name like chasten-results-lazytracker-20230823162341-4c23fc443a6b4c4aa09886f1ecb96e9f.json. Running chasten on this program more than once will produce a new results file with a different timestamp (i.e., 20230823162341) and unique identifier (i.e., 4c23fc443a6b4c4aa09886f1ecb96e9f) in its name, thus ensuring that you do not accidentally write over your prior results when using --save.\nAfter creating a multicounter/ directory in the existing subject-data/ directory, you can run the chasten analyze command for the multicounter program:\n\nchasten analyze multicounter \\\n        --config &lt;path to the chasten-configuration/ directory&gt; \\\n        --search-path &lt;path to the multicounter/ directory&gt; \\\n        --save-directory &lt;path to the subject-data/lazytracker/ directory&gt; \\\n        --save\n\nNow you can scan the output to confirm that, as an example, chasten finds 10 test functions in the multicounter project. If you look in the subject-data/lazytracker directory you will find a JSON file with a name like chasten-results-multicounter-20230821171712-5c52f2f1b61b4cce97624cc34cb39d4f.json and name components that are similar to the JSON file created for the multicounter program.\nSince the all-test-function-definition check specifies that the program must have between 1 and 10 tests you will notice that this check passes for both lazytracker and multicounter. This means that chasten returns a 0 error code to communicate to your operating system that the check passed.\nYou can learn more about how to use the analyze sub-command by typing chasten analyze --help. For instance, chasten supports the --check-include and --check-exclude options that allow you to respectively include and exclude specific checks according to fuzzy matching rules that you can specify for any of a check’s attributes specified in the checks.yml file."
+  },
+  {
+    "objectID": "chastenwiki.html#integration",
+    "href": "chastenwiki.html#integration",
+    "title": "Chasten Documentation",
+    "section": "🚧 Integration",
+    "text": "🚧 Integration\nAfter running chasten on the lazytracker and multicounter programs you can integrate their individual JSON files into a single JSON file, related CSV files, and a SQLite database. Once you have made an integrated-data/ directory, you can type this command to perform the integration:\nchasten integrate all-programs \\\n        &lt;path to subject-data&gt;/**/*.json \\\n        --save-directory &lt;path to the integrated-data/ directory&gt;\nThis command will produce a directory like chasten-flattened-csvs-sqlite-db-all-programs-20230823171016-2061b524276b4299b04359ba30452923/ that contains a SQLite database called chasten.db and a csv/ directory with CSV files that correspond to each of the tables inside of the database.\nYou can learn more about the integrate sub-command by typing chasten integrate --help."
+  },
+  {
+    "objectID": "chastenwiki.html#results",
+    "href": "chastenwiki.html#results",
+    "title": "Chasten Documentation",
+    "section": "🌄 Results",
+    "text": "🌄 Results\nIf you want to create an interactive analysis dashboard that uses 📦 simonw/datasette you can run chasten datasette-serve &lt;path containing integrated results&gt;/chasten.db --port 8001. Now you can use the dashboard in your web browser to analyze the results while you study the source code for these projects with your editor! Examining the results will reveal that chasten, through its use of 📦 spookylukey/pyastgrep, correctly uses the XPath expression for all-test-function-definition to find the first line of executable source code inside of each test, skipping over a function’s docstring and leading comments.\nFor the lazytracker program you will notice that chasten reports that there are 6 test cases even though pytest only finds and runs 5 tests. This is due to the fact that tests/test_tracked.py test suite in lazytracker contains a function starting with test_ inside of another function starting with test_. This example illustrates the limitations of static analysis with chasten! Even though the tool correctly detected all of the “test functions”, the nesting of the functions in the test suite means that pytest will run the outer test_ function and use the inner test_ function for testing purposes.\nWith that said, chasten correctly finds each of the tests for the multicounter project. You can follow each of the previous steps in this document to apply chasten to your own Python program!"
+  },
+  {
+    "objectID": "chastenwiki.html#deployment",
+    "href": "chastenwiki.html#deployment",
+    "title": "Chasten Documentation",
+    "section": "🌎 Deployment",
+    "text": "🌎 Deployment\nIf you want to make your chasten.db publicly available for everyone to study, you can use the chasten datasette-publish sub-command. As long as you have followed the installation instructions for 📦 simonw/datasette-publish-fly and 📦 simonw/datasette-publish-vercel, you can use the plugins to deploy a public datasette server that hosts your chasten.db. For instance, running the command chasten datasette-publish &lt;path containing integrated results&gt;/chasten.db --platform vercel will publish the results from running chasten on lazytracker and multicounter to the Vercel platform.\nImportantly, the use of the chasten datasette-publish command with the --platform vercel option requires you to have previously followed the instructions for the datasette-publish-vercel plugin to install the vercel command-line tool. This is necessary because, although datasette-publish-vercel is one of chasten’s dependencies neither chasten nor datasette-publish-vercel provide the vercel tool even though they use it. You must take similar steps before publishing your database to Fly!"
+  },
+  {
+    "objectID": "chastenwiki.html#interaction",
+    "href": "chastenwiki.html#interaction",
+    "title": "Chasten Documentation",
+    "section": "🤯 Interaction",
+    "text": "🤯 Interaction\nEven though chasten is a command-line application, you create interactively create the tool’s command-line arguments and options through a terminal user interface (TUI). To use TUI-based way to create a complete command-line for chasten you can type the command chasten interact."
+  },
+  {
+    "objectID": "chastenwiki.html#learning",
+    "href": "chastenwiki.html#learning",
+    "title": "Chasten Documentation",
+    "section": "🤗 Learning",
+    "text": "🤗 Learning\n\nCurious about the nodes that are available in a Python program’s AST?\n\nAbstract Syntax Tree documentation introduces the nodes of a Python AST\nGreen Tea Snakes provides the “missing Python AST docs”\nTextual AST View provides a terminal-based tool for browsing a Python program’s AST\n\nWant to learn more about how to write XPath expressions for a Python AST?\n\nPyastgrep offers examples of XPath expressions for querying a Python program’s AST\nXPath Documentation describes how to write XPath expressions\nXPath Axes summaries the ways that XPath axes relate a note to other nodes\n\nInterested in exploring other approaches to querying source code?\n\nsrcML supports XPath-based querying of programs implemented in C, C#, C++, and Java\nTreesitter provides a general-purpose approach to modelling and querying source code\nPython Treesitter offers a Python language bindings for to parsing and querying with Treesitter"
+  },
+  {
+    "objectID": "chastenwiki.html#improvement",
+    "href": "chastenwiki.html#improvement",
+    "title": "Chasten Documentation",
+    "section": "🧗Improvement",
+    "text": "🧗Improvement\n\nFound a bug or have a feature that the development team should implement? Raise an issue!\nInteresting in learning more about tool usage details? Check the wiki!\nWant to discuss ways to use the tool? Participate in discussions!"
+  }
+]

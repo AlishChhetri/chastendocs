@@ -1,0 +1,29 @@
+---
+title: "Chasten Videos"
+subtitle: Welcome! This is the official documentation for Chasten. 
+format: html
+---
+
+[<img src="chasten-logo.svg" alt="Chasten Logo"
+    title="Chasten Logo" />](https://github.com/AstuteSource/chasten)
+
+
+## Issue 36
+
+Issue #36: Create a Video that Shows how Chasten Analyzes a Codebase
+
+TODO: Add a video here
+
+### Filler video (inspired by OBC):
+
+{{< video https://www.youtube.com/watch?v=hGIW2fDb0jg >}}
+
+## Issue 37
+
+Issue #37: Create a Video that Shows How to Use Chasten's Datasette to Analyze Data
+
+TODO: Add a video here
+
+### Filler video (inspired by OBC):
+
+{{< video https://www.youtube.com/watch?v=hGIW2fDb0jg >}}

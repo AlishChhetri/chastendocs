@@ -1,0 +1,4 @@
+- source: project
+  netlify:
+    - id: 41665ffb-243a-4c7a-b0df-7e3178d079b1
+      url: 'https://chastendocs.netlify.app'
