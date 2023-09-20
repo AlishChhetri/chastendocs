@@ -1,0 +1,13 @@
+---
+title: "Meet the Team"
+about:
+  template: jolla
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/AstuteSource/chasten
+---
+
+<img src="teamimg.jpg" alt="Team Image" />
+
+Meet the Developers behind Chasten!

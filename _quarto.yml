@@ -1,0 +1,36 @@
+project:
+  type: website
+
+website:
+  title: "Chasten Documentation"
+  search:
+    location: navbar
+    type: textbox
+  reader-mode: false
+  back-to-top-navigation: false
+  navbar:
+    left:
+      - href: chastenwiki.qmd
+      - href: videos.qmd
+      - href: devlogs.qmd
+    right:
+      - href: team.qmd
+      - icon: github
+        href: https://github.com/AstuteSource/chasten
+      - icon: discord
+        href: https://discord.gg/aNfn8DNEMx
+  page-footer:
+    center: '<a href="#" aria-label="Go to the top of the page">Top {{< fa circle-up >}}</a>'
+    right:
+      - icon: github
+        href: https://github.com/AstuteSource/chasten
+      - icon: discord
+        href: https://discord.gg/aNfn8DNEMx
+format:
+  html:
+    theme: darkly
+    css: styles.css
+    toc: True
+
+
+
