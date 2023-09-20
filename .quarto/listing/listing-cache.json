@@ -1,11 +1,5 @@
 {
   "listingMap": {
-    "index.qmd": [
-      "posts"
-    ],
-    "devforum.qmd": [
-      "posts"
-    ],
     "devlogs.qmd": [
       "posts"
     ]

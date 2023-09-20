@@ -1,31 +1,10 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Chasten Documentation",
+    "objectID": "videos.html",
+    "href": "videos.html",
+    "title": "Chasten Videos",
     "section": "",
-    "text": "Developing developers so that they can develop better software!"
-  },
-  {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
-    "title": "Post With Code",
-    "section": "",
-    "text": "This is a post with executable code."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this blog"
-  },
-  {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
-    "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+    "text": "Issue #36: Create a Video that Shows how Chasten Analyzes a Codebase\nTODO: Add a video here"
   },
   {
     "objectID": "videos.html#issue-36",
@@ -40,6 +19,13 @@
     "title": "Chasten Videos",
     "section": "Issue 37",
     "text": "Issue 37\nIssue #37: Create a Video that Shows How to Use Chasten’s Datasette to Analyze Data\nTODO: Add a video here\n\nFiller video (inspired by OBC):"
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
   },
   {
     "objectID": "chastenwiki.html#introduction",
@@ -133,13 +119,6 @@
     "text": "🧗Improvement\n\nFound a bug or have a feature that the development team should implement? Raise an issue!\nInteresting in learning more about tool usage details? Check the wiki!\nWant to discuss ways to use the tool? Participate in discussions!"
   },
   {
-    "objectID": "devforum.html",
-    "href": "devforum.html",
-    "title": "Issue 41",
-    "section": "",
-    "text": "Post With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nSep 19, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nSep 16, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
-  },
-  {
     "objectID": "devlogs.html",
     "href": "devlogs.html",
     "title": "DevLogs",
@@ -147,24 +126,17 @@
     "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nPost With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nSeptember 19, 2023\n\n\nHarlow Malloc\n\n\n1 min\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nSeptember 16, 2023\n\n\nTristan O’Malley\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
   },
   {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code."
+  },
+  {
     "objectID": "team.html",
     "href": "team.html",
     "title": "Meet the Team",
     "section": "",
-    "text": "Meet the Developer behind Chasten!"
-  },
-  {
-    "objectID": "videos.html",
-    "href": "videos.html",
-    "title": "Chasten Videos",
-    "section": "",
-    "text": "Issue #36: Create a Video that Shows how Chasten Analyzes a Codebase\nTODO: Add a video here"
-  },
-  {
-    "objectID": "chastenwiki.html",
-    "href": "chastenwiki.html",
-    "title": "README",
-    "section": "",
-    "text": "# 💫 chasten"
+    "text": "Meet the Developers behind Chasten!"
   }
 ]
