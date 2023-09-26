@@ -12,7 +12,7 @@ website:
     left:
       - href: chastenwiki.qmd
       - href: videos.qmd
-      - href: devlogs.qmd
+      - href: issues.qmd
     right:
       - href: team.qmd
       - icon: github

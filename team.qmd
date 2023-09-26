@@ -3,8 +3,8 @@ title: "Meet the Team"
 about:
   template: jolla
   links:
-    - icon: github
-      text: Github
+    - icon: bi-person-plus
+      text: Join the Team
       href: https://github.com/AstuteSource/chasten
 ---
 

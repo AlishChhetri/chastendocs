@@ -1,0 +1,13 @@
+---
+title: "Issues"
+about:
+  template: jolla
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/AstuteSource/chasten/issues
+---
+
+[<img src="issueimg.png" alt="Issues" />](https://github.com/AstuteSource/chasten/issues)
+
+Let's hop on over to our Issue Tracker and squash some bugs together! 🐞💪

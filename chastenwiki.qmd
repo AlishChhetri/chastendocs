@@ -1,7 +1,9 @@
 ---
 title: "README"
 subtitle: Welcome to the official documentation for
-format: html
+format:
+  html:
+    smooth-scroll: true
 ---
 
 [<img src="chasten-logo-medium.svg" alt="Chasten Logo"

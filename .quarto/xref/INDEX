@@ -25,5 +25,14 @@
   },
   "team.qmd": {
     "team.html": "8332f458"
+  },
+  "devlog2.qmd": {
+    "devlog2.html": "21d00121"
+  },
+  "issues.qmd": {
+    "issues.html": "7a24078f"
+  },
+  "policies.qmd": {
+    "policies.html": "7f008324"
   }
 }
