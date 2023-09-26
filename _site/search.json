@@ -126,13 +126,6 @@
     "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nPost With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nSeptember 19, 2023\n\n\nHarlow Malloc\n\n\n1 min\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nSeptember 16, 2023\n\n\nTristan O’Malley\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
-    "title": "Post With Code",
-    "section": "",
-    "text": "This is a post with executable code."
-  },
-  {
     "objectID": "team.html",
     "href": "team.html",
     "title": "Meet the Team",
@@ -158,6 +151,90 @@
     "href": "policies.html",
     "title": "Join the Team",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nPost With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nSeptember 19, 2023\n\n\nHarlow Malloc\n\n\n1 min\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nSeptember 16, 2023\n\n\nTristan O’Malley\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\nCode of Conduct\n\n\n\n\n\n\n\npolicy\n\n\ncode of conduct\n\n\n\n\n All members of the Chasten Dev team must uphold the code of conduct\n\n\n\n\n\n\nSeptember 26, 2023\n\n\nChasten Dev Team\n\n\n4 min\n\n\n\n\n\n\n\n\nTeam Policies\n\n\n\n\n\n\n\npolicies\n\n\n\n\n Policies upheld by members of the Chasten team\n\n\n\n\n\n\nSeptember 26, 2023\n\n\nChasten Dev Team\n\n\n2 min\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Team Policies",
+    "section": "",
+    "text": "Blog posts for the Developer Development website will be created by a committee of three people. Committees will be assigned for the week on Mondays at 9:35am.\nThe committees will be expected to have final/working drafts by 9:00pm on Sundays for the post reviewed on Monday, and at 9:00pm on Tuesday for the post reviewed on Wednesday. Because of this, individual team members are expected to complete their first professional precis of the week by Wednesdays 9:00am, and the second by Fridays at 9:00am.\nCommittees are encouraged to seek help from the team at large if they feel that they cannot complete their work on time. They are encouraged to do so at least nine hours prior to their deadline.\nFailure to meet the goals necessitates that one or more committee members must write an incident report, to be published as a blog post, and must within 24 hours of that initial deadline have something to show for their work. In 48 hours, it must be complete.\nIncident reports must consist of a review of the cause of the issue, the issue itself, and how to resolve/prevent the issue from occuring again.\nPull requests to the team’s project require three reviewers before they can be merged. This should be done within a week of a pull request leaving the ‘draft’ state.\nWe have assigned Policy and Schedule Maintainers, who will be in charge of updating their corresponding responsibilitiees weekly and/or as needed.\nAt minimum, five issues in the Chasten repository must be worked on per week. Ideally, ten to twelve will see progress, if not total completion."
+  },
+  {
+    "objectID": "posts/post-with-code/index.html#policies-for-work-completion-on-chasten-project",
+    "href": "posts/post-with-code/index.html#policies-for-work-completion-on-chasten-project",
+    "title": "Team Policies",
+    "section": "",
+    "text": "Blog posts for the Developer Development website will be created by a committee of three people. Committees will be assigned for the week on Mondays at 9:35am.\nThe committees will be expected to have final/working drafts by 9:00pm on Sundays for the post reviewed on Monday, and at 9:00pm on Tuesday for the post reviewed on Wednesday. Because of this, individual team members are expected to complete their first professional precis of the week by Wednesdays 9:00am, and the second by Fridays at 9:00am.\nCommittees are encouraged to seek help from the team at large if they feel that they cannot complete their work on time. They are encouraged to do so at least nine hours prior to their deadline.\nFailure to meet the goals necessitates that one or more committee members must write an incident report, to be published as a blog post, and must within 24 hours of that initial deadline have something to show for their work. In 48 hours, it must be complete.\nIncident reports must consist of a review of the cause of the issue, the issue itself, and how to resolve/prevent the issue from occuring again.\nPull requests to the team’s project require three reviewers before they can be merged. This should be done within a week of a pull request leaving the ‘draft’ state.\nWe have assigned Policy and Schedule Maintainers, who will be in charge of updating their corresponding responsibilitiees weekly and/or as needed.\nAt minimum, five issues in the Chasten repository must be worked on per week. Ideally, ten to twelve will see progress, if not total completion."
+  },
+  {
+    "objectID": "posts/code_of_conduct/index.html",
+    "href": "posts/code_of_conduct/index.html",
+    "title": "Code of Conduct",
+    "section": "",
+    "text": "We as members, contributors, and leaders pledge to make participation in our community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.\nWe pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community.\n\n\n\nExamples of behavior that contributes to a positive environment for our community include:\n\nDemonstrating empathy and kindness toward other people\nBeing respectful of differing opinions, viewpoints, and experiences\nGiving and gracefully accepting constructive feedback\nAccepting responsibility and apologizing to those affected by our mistakes, and learning from the experience\nFocusing on what is best not just for us as individuals, but for the overall community\n\nExamples of unacceptable behavior include:\n\nThe use of sexualized language or imagery, and sexual attention or advances of any kind\nTrolling, insulting or derogatory comments, and personal or political attacks\nPublic or private harassment\nPublishing others’ private information, such as a physical or email address, without their explicit permission\nOther conduct which could reasonably be considered inappropriate in a professional setting\n\n\n\n\nCommunity leaders are responsible for clarifying and enforcing our standards of acceptable behavior and will take appropriate and fair corrective action in response to any behavior that they deem inappropriate, threatening, offensive, or harmful.\nCommunity leaders have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct, and will communicate reasons for moderation decisions when appropriate.\n\n\n\nThis Code of Conduct applies within all community spaces, and also applies when an individual is officially representing the community in public spaces. Examples of representing our community include using an official e-mail address, posting via an official social media account, or acting as an appointed representative at an online or offline event.\n\n\n\nInstances of abusive, harassing, or otherwise unacceptable behavior may be reported to the community leaders responsible for enforcement at . All complaints will be reviewed and investigated promptly and fairly.\nAll community leaders are obligated to respect the privacy and security of the reporter of any incident.\n\n\n\nCommunity leaders will follow these Community Impact Guidelines in determining the consequences for any action they deem in violation of this Code of Conduct:\n\n\nCommunity Impact: Use of inappropriate language or other behavior deemed unprofessional or unwelcome in the community.\nConsequence: A private, written warning from community leaders, providing clarity around the nature of the violation and an explanation of why the behavior was inappropriate. A public apology may be requested.\n\n\n\nCommunity Impact: A violation through a single incident or series of actions.\nConsequence: A warning with consequences for continued behavior. No interaction with the people involved, including unsolicited interaction with those enforcing the Code of Conduct, for a specified period of time. This includes avoiding interactions in community spaces as well as external channels like social media. Violating these terms may lead to a temporary or permanent ban.\n\n\n\nCommunity Impact: A serious violation of community standards, including sustained inappropriate behavior.\nConsequence: A temporary ban from any sort of interaction or public communication with the community for a specified period of time. No public or private interaction with the people involved, including unsolicited interaction with those enforcing the Code of Conduct, is allowed during this period. Violating these terms may lead to a permanent ban.\n\n\n\nCommunity Impact: Demonstrating a pattern of violation of community standards, including sustained inappropriate behavior, harassment of an individual, or aggression toward or disparagement of classes of individuals.\nConsequence: A permanent ban from any sort of public interaction within the community.\n\n\n\n\nThis Code of Conduct is adapted from the Contributor Covenant, version 2.0, available at https://www.contributor-covenant.org/version/2/0/code_of_conduct.html.\nCommunity Impact Guidelines were inspired by Mozilla’s code of conduct enforcement ladder.\nFor answers to common questions about this code of conduct, see the FAQ at https://www.contributor-covenant.org/faq. Translations are available at https://www.contributor-covenant.org/translations."
+  },
+  {
+    "objectID": "posts/code_of_conduct/index.html#our-pledge",
+    "href": "posts/code_of_conduct/index.html#our-pledge",
+    "title": "Code of Conduct",
+    "section": "",
+    "text": "We as members, contributors, and leaders pledge to make participation in our community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.\nWe pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community."
+  },
+  {
+    "objectID": "posts/code_of_conduct/index.html#our-standards",
+    "href": "posts/code_of_conduct/index.html#our-standards",
+    "title": "Code of Conduct",
+    "section": "",
+    "text": "Examples of behavior that contributes to a positive environment for our community include:\n\nDemonstrating empathy and kindness toward other people\nBeing respectful of differing opinions, viewpoints, and experiences\nGiving and gracefully accepting constructive feedback\nAccepting responsibility and apologizing to those affected by our mistakes, and learning from the experience\nFocusing on what is best not just for us as individuals, but for the overall community\n\nExamples of unacceptable behavior include:\n\nThe use of sexualized language or imagery, and sexual attention or advances of any kind\nTrolling, insulting or derogatory comments, and personal or political attacks\nPublic or private harassment\nPublishing others’ private information, such as a physical or email address, without their explicit permission\nOther conduct which could reasonably be considered inappropriate in a professional setting"
+  },
+  {
+    "objectID": "posts/code_of_conduct/index.html#enforcement-responsibilities",
+    "href": "posts/code_of_conduct/index.html#enforcement-responsibilities",
+    "title": "Code of Conduct",
+    "section": "",
+    "text": "Community leaders are responsible for clarifying and enforcing our standards of acceptable behavior and will take appropriate and fair corrective action in response to any behavior that they deem inappropriate, threatening, offensive, or harmful.\nCommunity leaders have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct, and will communicate reasons for moderation decisions when appropriate."
+  },
+  {
+    "objectID": "posts/code_of_conduct/index.html#scope",
+    "href": "posts/code_of_conduct/index.html#scope",
+    "title": "Code of Conduct",
+    "section": "",
+    "text": "This Code of Conduct applies within all community spaces, and also applies when an individual is officially representing the community in public spaces. Examples of representing our community include using an official e-mail address, posting via an official social media account, or acting as an appointed representative at an online or offline event."
+  },
+  {
+    "objectID": "posts/code_of_conduct/index.html#enforcement",
+    "href": "posts/code_of_conduct/index.html#enforcement",
+    "title": "Code of Conduct",
+    "section": "",
+    "text": "Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the community leaders responsible for enforcement at . All complaints will be reviewed and investigated promptly and fairly.\nAll community leaders are obligated to respect the privacy and security of the reporter of any incident."
+  },
+  {
+    "objectID": "posts/code_of_conduct/index.html#enforcement-guidelines",
+    "href": "posts/code_of_conduct/index.html#enforcement-guidelines",
+    "title": "Code of Conduct",
+    "section": "",
+    "text": "Community leaders will follow these Community Impact Guidelines in determining the consequences for any action they deem in violation of this Code of Conduct:\n\n\nCommunity Impact: Use of inappropriate language or other behavior deemed unprofessional or unwelcome in the community.\nConsequence: A private, written warning from community leaders, providing clarity around the nature of the violation and an explanation of why the behavior was inappropriate. A public apology may be requested.\n\n\n\nCommunity Impact: A violation through a single incident or series of actions.\nConsequence: A warning with consequences for continued behavior. No interaction with the people involved, including unsolicited interaction with those enforcing the Code of Conduct, for a specified period of time. This includes avoiding interactions in community spaces as well as external channels like social media. Violating these terms may lead to a temporary or permanent ban.\n\n\n\nCommunity Impact: A serious violation of community standards, including sustained inappropriate behavior.\nConsequence: A temporary ban from any sort of interaction or public communication with the community for a specified period of time. No public or private interaction with the people involved, including unsolicited interaction with those enforcing the Code of Conduct, is allowed during this period. Violating these terms may lead to a permanent ban.\n\n\n\nCommunity Impact: Demonstrating a pattern of violation of community standards, including sustained inappropriate behavior, harassment of an individual, or aggression toward or disparagement of classes of individuals.\nConsequence: A permanent ban from any sort of public interaction within the community."
+  },
+  {
+    "objectID": "posts/code_of_conduct/index.html#attribution",
+    "href": "posts/code_of_conduct/index.html#attribution",
+    "title": "Code of Conduct",
+    "section": "",
+    "text": "This Code of Conduct is adapted from the Contributor Covenant, version 2.0, available at https://www.contributor-covenant.org/version/2/0/code_of_conduct.html.\nCommunity Impact Guidelines were inspired by Mozilla’s code of conduct enforcement ladder.\nFor answers to common questions about this code of conduct, see the FAQ at https://www.contributor-covenant.org/faq. Translations are available at https://www.contributor-covenant.org/translations."
+  },
+  {
+    "objectID": "posts/team-policies/index.html",
+    "href": "posts/team-policies/index.html",
+    "title": "Team Policies",
+    "section": "",
+    "text": "Blog posts for the Developer Development website will be created by a committee of three people. Committees will be assigned for the week on Mondays at 9:35am.\nThe committees will be expected to have final/working drafts by 9:00pm on Sundays for the post reviewed on Monday, and at 9:00pm on Tuesday for the post reviewed on Wednesday. Because of this, individual team members are expected to complete their first professional precis of the week by Wednesdays 9:00am, and the second by Fridays at 9:00am.\nCommittees are encouraged to seek help from the team at large if they feel that they cannot complete their work on time. They are encouraged to do so at least nine hours prior to their deadline.\nFailure to meet the goals necessitates that one or more committee members must write an incident report, to be published as a blog post, and must within 24 hours of that initial deadline have something to show for their work. In 48 hours, it must be complete.\nIncident reports must consist of a review of the cause of the issue, the issue itself, and how to resolve/prevent the issue from occuring again.\nPull requests to the team’s project require three reviewers before they can be merged. This should be done within a week of a pull request leaving the ‘draft’ state.\nWe have assigned Policy and Schedule Maintainers, who will be in charge of updating their corresponding responsibilitiees weekly and/or as needed.\nAt minimum, five issues in the Chasten repository must be worked on per week. Ideally, ten to twelve will see progress, if not total completion."
+  },
+  {
+    "objectID": "posts/team-policies/index.html#policies-for-work-completion-on-chasten-project",
+    "href": "posts/team-policies/index.html#policies-for-work-completion-on-chasten-project",
+    "title": "Team Policies",
+    "section": "",
+    "text": "Blog posts for the Developer Development website will be created by a committee of three people. Committees will be assigned for the week on Mondays at 9:35am.\nThe committees will be expected to have final/working drafts by 9:00pm on Sundays for the post reviewed on Monday, and at 9:00pm on Tuesday for the post reviewed on Wednesday. Because of this, individual team members are expected to complete their first professional precis of the week by Wednesdays 9:00am, and the second by Fridays at 9:00am.\nCommittees are encouraged to seek help from the team at large if they feel that they cannot complete their work on time. They are encouraged to do so at least nine hours prior to their deadline.\nFailure to meet the goals necessitates that one or more committee members must write an incident report, to be published as a blog post, and must within 24 hours of that initial deadline have something to show for their work. In 48 hours, it must be complete.\nIncident reports must consist of a review of the cause of the issue, the issue itself, and how to resolve/prevent the issue from occuring again.\nPull requests to the team’s project require three reviewers before they can be merged. This should be done within a week of a pull request leaving the ‘draft’ state.\nWe have assigned Policy and Schedule Maintainers, who will be in charge of updating their corresponding responsibilitiees weekly and/or as needed.\nAt minimum, five issues in the Chasten repository must be worked on per week. Ideally, ten to twelve will see progress, if not total completion."
   }
 ]

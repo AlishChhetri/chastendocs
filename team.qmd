@@ -5,7 +5,7 @@ about:
   links:
     - icon: bi-person-plus
       text: Join the Team
-      href: https://github.com/AstuteSource/chasten
+      href: https://chastendocs.netlify.app/policies.html
 ---
 
 <img src="teamimg.jpg" alt="Team Image" />

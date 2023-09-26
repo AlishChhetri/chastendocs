@@ -15,7 +15,7 @@ listing:
   filter-ui: true
   fields: [author, date, title, reading-time, description, categories]
   feed:
-    title: "DevLogs"
+    title: "policies"
 execute:
   freeze: auto
 ---

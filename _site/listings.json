@@ -16,8 +16,11 @@
   {
     "listing": "/policies.html",
     "items": [
-      "/posts/post-with-code/index.html",
-      "/posts/welcome/index.html"
+      "/posts/pull_request_template/index.html",
+      "/posts/contributing/index.html",
+      "/posts/security/index.html",
+      "/posts/code_of_conduct/index.html",
+      "/posts/team-policies/index.html"
     ]
   }
 ]

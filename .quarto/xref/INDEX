@@ -34,5 +34,20 @@
   },
   "policies.qmd": {
     "policies.html": "7f008324"
+  },
+  "posts/code_of_conduct/index.qmd": {
+    "index.html": "81a9a341"
+  },
+  "posts/pull_request_template/index.qmd": {
+    "index.html": "32f12e02"
+  },
+  "posts/contributing/index.qmd": {
+    "index.html": "ee9334d6"
+  },
+  "posts/team-policies/index.qmd": {
+    "index.html": "d6e32b72"
+  },
+  "posts/security/index.qmd": {
+    "index.html": "46c4b3c4"
   }
 }
