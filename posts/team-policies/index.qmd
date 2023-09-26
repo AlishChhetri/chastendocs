@@ -3,7 +3,7 @@ title: "Team Policies"
 description: <em> Policies upheld by members of the Chasten team<em>
 author: [Chasten Dev Team]
 date: "2023-09-26"
-categories: [policies]
+categories: [policy]
 toc: true
 page-layout: full
 ---
