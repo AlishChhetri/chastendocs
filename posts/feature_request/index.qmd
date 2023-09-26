@@ -1,0 +1,23 @@
+---
+title: "Feature Request Template"
+description: <em> How to structure a Feature Request<em>
+author: [Chasten Dev Team]
+date: "2023-09-26"
+categories: [policy, contribute]
+toc: true
+page-layout: full
+---
+
+<img src="featimg.png" alt="feature" />
+
+**Is your feature request related to a problem? Please describe.**
+A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+
+**Describe the solution you'd like**
+A clear and concise description of what you want to happen.
+
+**Describe alternatives you've considered**
+A clear and concise description of any alternative solutions or features you've considered.
+
+**Additional context**
+Add any other context or screenshots about the feature request here.
