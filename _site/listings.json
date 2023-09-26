@@ -16,10 +16,11 @@
   {
     "listing": "/policies.html",
     "items": [
-      "/posts/pull_request_template/index.html",
-      "/posts/contributing/index.html",
-      "/posts/security/index.html",
       "/posts/code_of_conduct/index.html",
+      "/posts/contributing/index.html",
+      "/posts/licence/index.html",
+      "/posts/pull_request_template/index.html",
+      "/posts/security/index.html",
       "/posts/team-policies/index.html"
     ]
   }
