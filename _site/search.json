@@ -151,7 +151,7 @@
     "href": "policies.html",
     "title": "Join the Team",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nCode of Conduct\n\n\n\n\n\n\n\npolicy\n\n\ncode of conduct\n\n\n\n\n All members of the Chasten Dev team must uphold the code of conduct\n\n\n\n\n\n\nSeptember 26, 2023\n\n\nChasten Dev Team\n\n\n4 min\n\n\n\n\n\n\n\n\nContributing\n\n\n\n\n\n\n\npolicy\n\n\ncontribute\n\n\n\n\n How to contribute to Chasten\n\n\n\n\n\n\nSeptember 26, 2023\n\n\nChasten Dev Team\n\n\n3 min\n\n\n\n\n\n\n\n\nLicence\n\n\n\n\n\n\n\nlicence\n\n\n\n\n Keeping Chasten Secure\n\n\n\n\n\n\nSeptember 26, 2023\n\n\nChasten Dev Team\n\n\n16 min\n\n\n\n\n\n\n\n\nPull Request Template\n\n\n\n\n\n\n\npolicy\n\n\ncontribute\n\n\n\n\n How to structure a pull request\n\n\n\n\n\n\nSeptember 26, 2023\n\n\nChasten Dev Team\n\n\n1 min\n\n\n\n\n\n\n\n\nSecurity\n\n\n\n\n\n\n\npolicy\n\n\nsecurity\n\n\n\n\n Keeping Chasten Secure\n\n\n\n\n\n\nSeptember 26, 2023\n\n\nChasten Dev Team\n\n\n1 min\n\n\n\n\n\n\n\n\nTeam Policies\n\n\n\n\n\n\n\npolicy\n\n\n\n\n Policies upheld by members of the Chasten team\n\n\n\n\n\n\nSeptember 26, 2023\n\n\nChasten Dev Team\n\n\n2 min\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\nBug Report Template\n\n\n\n\n\n\n\npolicy\n\n\ncontribute\n\n\n\n\n How to structure a bug report\n\n\n\n\n\n\nSeptember 26, 2023\n\n\nChasten Dev Team\n\n\n1 min\n\n\n\n\n\n\n\n\nCode of Conduct\n\n\n\n\n\n\n\npolicy\n\n\ncode of conduct\n\n\n\n\n All members of the Chasten Dev team must uphold the code of conduct\n\n\n\n\n\n\nSeptember 26, 2023\n\n\nChasten Dev Team\n\n\n4 min\n\n\n\n\n\n\n\n\nContributing\n\n\n\n\n\n\n\npolicy\n\n\ncontribute\n\n\n\n\n How to contribute to Chasten\n\n\n\n\n\n\nSeptember 26, 2023\n\n\nChasten Dev Team\n\n\n3 min\n\n\n\n\n\n\n\n\nLicence\n\n\n\n\n\n\n\nlicence\n\n\n\n\n Licence for Chasten\n\n\n\n\n\n\nSeptember 26, 2023\n\n\nChasten Dev Team\n\n\n16 min\n\n\n\n\n\n\n\n\nPull Request Template\n\n\n\n\n\n\n\npolicy\n\n\ncontribute\n\n\n\n\n How to structure a pull request\n\n\n\n\n\n\nSeptember 26, 2023\n\n\nChasten Dev Team\n\n\n1 min\n\n\n\n\n\n\n\n\nSecurity\n\n\n\n\n\n\n\npolicy\n\n\nsecurity\n\n\n\n\n Keeping Chasten Secure\n\n\n\n\n\n\nSeptember 26, 2023\n\n\nChasten Dev Team\n\n\n1 min\n\n\n\n\n\n\n\n\nTeam Policies\n\n\n\n\n\n\n\npolicy\n\n\n\n\n Policies upheld by members of the Chasten team\n\n\n\n\n\n\nSeptember 26, 2023\n\n\nChasten Dev Team\n\n\n2 min\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/post-with-code/index.html",
@@ -292,5 +292,12 @@
     "title": "Security",
     "section": "",
     "text": "Please report any vulnerabilities as bugs, and explain in the issue what the vulnerability is. Updates will be given as we assign team members to work on the issue and they make progress on it."
+  },
+  {
+    "objectID": "posts/bug_report/index.html",
+    "href": "posts/bug_report/index.html",
+    "title": "Bug Report Template",
+    "section": "",
+    "text": "Describe the bug A clear and concise description of what the bug is.\nTo Reproduce Steps to reproduce the behavior: 1. Go to ‘…’ 2. Click on ‘….’ 3. Scroll down to ‘….’ 4. See error\nExpected behavior A clear and concise description of what you expected to happen.\nScreenshots If applicable, add screenshots to help explain your problem.\nDesktop (please complete the following information): - OS: [e.g. Windows] - Browser [e.g. Google, Firefox] - Version [e.g. Windows 11]\nAdditional context Add any other context about the problem here."
   }
 ]

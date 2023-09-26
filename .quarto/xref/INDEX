@@ -52,5 +52,11 @@
   },
   "posts/licence/index.qmd": {
     "index.html": "7f5673e5"
+  },
+  "posts/bug_report/index.qmd": {
+    "index.html": "81648426"
+  },
+  "posts/feature_request/index.qmd": {
+    "index.html": "57fc9e51"
   }
 }

@@ -16,6 +16,8 @@
   {
     "listing": "/policies.html",
     "items": [
+      "/posts/feature_request/index.html",
+      "/posts/bug_report/index.html",
       "/posts/code_of_conduct/index.html",
       "/posts/contributing/index.html",
       "/posts/licence/index.html",
