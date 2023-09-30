@@ -1,19 +1,5 @@
 [
   {
-    "listing": "/devlogs.html",
-    "items": [
-      "/posts/post-with-code/index.html",
-      "/posts/welcome/index.html"
-    ]
-  },
-  {
-    "listing": "/devlog2.html",
-    "items": [
-      "/posts/post-with-code/index.html",
-      "/posts/welcome/index.html"
-    ]
-  },
-  {
     "listing": "/policies.html",
     "items": [
       "/posts/bug_report/index.html",
